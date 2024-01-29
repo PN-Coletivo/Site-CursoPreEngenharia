@@ -1,5 +1,5 @@
 ---
-title: Introdução
+title: Olá!
 description: Introdução
 tableOfContents: false
 ---
@@ -12,18 +12,20 @@ tableOfContents: false
 
 Por aqui nós iremos aprender sobre as matérias do primeiro ano do ciclo básico como:
 
-- **Cálculo**
+- **Cálculo I**
 
 Aqui nós aprenderemoss sobre a ferramente matemática que é o Cálculo, como funciona e como utilizaremos. Aprendemos sobre *limites*, *derivadas* e *integrais*.
 
-- Física
+- **Física I**
 
 Aprenderemos sobre a mecânica clássica que vimos no ensino médio utilizando as ferramentas do Cálculo!
 
-- Álgebra Linear
+- **Álgebra Linear**
 
 Aprenderemos a modelar o espaço bidimensional e tridimensional.
 
-- Introdução à Computação
+- **Introdução à Computação**
 
 Aqui veremos a base para uma das coisas mais importantes do mercado de trabalho hoje em dia: a programação!
+
+Nosso curso tem como objetivo principal que você consiga ter um bom primeiro semestre, mais preparado com as ideias e conceitos que são tão novos no inicio do curso.

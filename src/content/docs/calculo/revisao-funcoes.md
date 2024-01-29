@@ -1,5 +1,5 @@
 ---
-title: Revisão de Funções
+title: Importância e Revisão de Funções
 description: Revisão
 tableOfContents: false
 ---

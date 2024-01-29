@@ -12,7 +12,7 @@ import { astroExpressiveCode } from '@astrojs/starlight/expressive-code';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Cursinho PoliNegra',
+      title: 'Curso PoliNegra',
       social: {
         instagram: "https://www.instagram.com/coletivopolinegra/"
       },
@@ -28,7 +28,7 @@ export default defineConfig({
           items: [
             { label: 'Introdução de Cálculo I', link: '/calculo/introducao-calculo' },
             { label: 'Contextualização Histórica', link: '/calculo/contextualizacao' },
-            { label: 'Revisão de Funções', link: '/calculo/revisao-funcoes' },
+            { label: 'Importância das Funções', link: '/calculo/revisao-funcoes' },
             { label: 'Definição de Função', link: '/calculo/definicao-funcao' },
             { label: 'Funções Importantes', link: '/calculo/funcoes-importantes' },
           ],
@@ -36,22 +36,19 @@ export default defineConfig({
         {
           label: 'Física I',
           items: [
-            { label: 'Introdução', link: '/fisica/introducao' },
-            { label: 'Setting', link: '/guides/setting/' },
+            { label: 'Introdução de Física (EM CONSTRUÇÃO)', link: '/fisica/introducao-fisica' },
           ],
         },
         {
           label: 'Algebra Linear I',
           items: [
-            { label: 'Introdução', link: '/algebra_linear/introducao' },
-            { label: 'Setting', link: '/guides/setting/' },
+            { label: 'Introdução de Álgebra Linear (EM CONSTRUÇÃO)', link: '/algebra_linear/introducao-algelin' },
           ],
         },
         {
           label: 'Introdução à Computação',
           items: [
-            { label: 'Introdução', link: '/introducao_a_computacao/introducao' },
-            { label: 'Setting', link: '/guides/setting/' },
+            { label: 'Introdução de Computação (EM CONSTRUÇÃO)', link: '/introducao_a_computacao/introducao-mac' },
           ],
         },
         // {

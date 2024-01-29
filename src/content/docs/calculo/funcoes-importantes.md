@@ -57,66 +57,67 @@ Exemplos:
 
 Perceba que os gráficos são linhas retas, a inclinação é dado pelo coeficiente linear $a$ e o valor inicial ($f(0)$) é o valor de $b$
 
-Função Quadrática
+#### Função Quadrática
 
-Definição: Descreve uma relação quadrática entre duas variáveis
-Equação geral: \( f(x) = ax^2 + bx + c \)
-Exemplos:
-Propriedades: 
-O gráfico é uma parábola
-O coeficiente a determina a direção da abertura (para cima se positivo ou para baixo se negativo) e a concavidade
-Os coeficientes b e c afetam a posição no plano, b a posição horizontal e c a posição vertical 
-Gráfico: https://www.geogebra.org/graphing/scyxwk9w
+Equação geral: $f(x) = ax^2 + bx + c , \text{ e com } a \neq 0$
 
-Função Cúbica
+![Funções Quadráticas](./funcao-quadratica.png "Funções Quadráticas")
 
-Definição: Descreve uma relação cúbica entre duas variáveis
-Equação geral: \( f(x) = ax^3 + bx^2 + cx + d \)
-Exemplos:
-Propriedades: 
-O gráfico é mais complexo, com curvas adicionais
-Os coeficientes a, b, c e d afetam a forma geral da curva
-Pode apresentar pontos de inflexão (local onde a concavidade da curva muda)
-Gráfico: https://www.geogebra.org/graphing/qhcnnjuc
+Os gráficos são chamados de parábolas, perceba como o valor de $a$ altera o gráfico.
 
-Função Exponencial
+Quando $a$ é negativo, o gráfico fica com a parábola para baixo.
 
-Definição: Descreve um crescimento ou decaimento exponencial
-Equação geral: \( f(x) = a \cdot b^x \)
-Exemplos:
-Propriedades: 
-O gráfico mostra crescimento ou decaimento rápido
-O a representa a amplitude
-O b é a base da exponenciação
-Gráfico: https://www.geogebra.org/graphing/usjdqxf8 
+Os coeficientes $b$ e $c$ afetam a posição no plano, $b$ a posição horizontal e $c$ a posição vertical 
 
-Função Logarítmica
+#### Generalização: Função Polinomiais
 
-Definição: Descreve a relação inversa da função exponencial
-Equação geral: \( f(x) = \log_b(x) \)
-Exemplos:
-Propriedades: 
-O gráfico é uma curva que cresce mais lentamente
-O b é a base do logaritmo
-Gráfico: https://www.geogebra.org/graphing/ak2pwc8z 
+Todas as funções que são da forma:
 
-Função Trigonométrica
+$p(x) = \sum\limits_{k=0}^{n} a_k x^k = a_{n}x^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \dots + a_0, \ a_n \neq 0$
 
-Definição: Descreve relações trigonométricas entre ângulos e lados em um triângulo
-Exemplos: sin(x) cos(x), tan(x)
-Propriedades: 
-Os gráficos são periódicos e com padrões ondulatórios 
-O seno e o cosseno variam entre -1 e 1
-O gráfico da tangente pode ser indefinido em alguns pontos
-Gráfico: https://www.geogebra.org/graphing/xqxeunn6 
+Essa é a generalização das funções que vimos até agora, todas as funções dessa forma.
 
-Função Hiperbólica 
 
-Definição: Descreve relações hiperbólicas, relacionadas às funções trigonométricas
-Exemplos: sinh(x), cosh(x), tanh(x)
-Propriedades: 
-Os gráficos são semelhantes às funções trigonométricas, mas com características hiperbólicas específicas
-Comportam-se como exponenciais em certos aspectos
-O seno hiperbólico e o cosseno hiperbólico variam entre -1 e 1
-Gráfico: https://www.geogebra.org/graphing/wcv3jvsp 
+"Resolver" uma equação polinomia significa encontras suas raízes, elas podem ou não existir no plano real ($\mathbb{R}$) mas as vezes elas só existem no plano complexo ($\mathbb{C}$), nós não veremos sobre o plano complexo em Cálculo I mas se você for de cursos como Engenharia Elétrica, saiba que ele será bem comum nos seus estudos.
+
+#### Função Exponencial
+
+Equação geral:  $f(x) = a \cdot b^x + c$ 
+
+Chamamos $b$ de base da exponencial.
+
+Os gráficos são assim:
+![Funções Exponenciais](./exponencial.png "Funções Exponenciais")
+
+Essas funções são extremamente importante para a modelagem de problemas reais é o principal motivo é a sua *derivada*.
+
+Essa função também tem uma conexão especial com o número de euler, $e$.
+
+Falaremos um pouco mais sobre isso na primeira aula.
+
+#### Função Logarítmica
+
+Essa é a inversa da função exponencial e ela é extremamente importante matemáticamente.
+
+Muitas coisas relacionadas as funções exponenciais só existem na matemática por causa da função logaritmica.
+
+Logarítmos também tiveram muita importância histórica no periodo das navegações por simplificar contas de multiplicações.
+
+Equação geral: $f(x)=\log_b(x)$
+
+Chamamos $b$ de base logaritmica
+
+![Função Logarítmica](./logaritmica.png)
+
+Uma característica interessante do logaritmo é que ele cresce **muito** lentamente.
+
+#### Função Trigonométrica
+
+Exemplos: $\sin(x), \cos(x), \tan(x)$
+
+Os gráficos são periódicos.
+
+![Função Trigonométrica](./trig.png)
+
+Aqui temos funções limitadas que são interessantes também!
 
