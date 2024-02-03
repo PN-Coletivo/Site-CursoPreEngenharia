@@ -36,7 +36,10 @@ export default defineConfig({
         {
           label: 'Física I',
           items: [
-            { label: 'Introdução de Física (EM CONSTRUÇÃO)', link: '/fisica/introducao-fisica' },
+            { label: 'Introdução de Física', link: '/fisica/introducao-fisica' },
+            { label: 'Grandezas Físicas', link: '/fisica/grandezas-fisicas' },
+            { label: 'Movimento', link: '/fisica/movimento' },
+            { label: 'Força', link: '/fisica/forca' },
           ],
         },
         {
