@@ -31,6 +31,7 @@ export default defineConfig({
             { label: 'Importância das Funções', link: '/calculo/revisao-funcoes' },
             { label: 'Definição de Função', link: '/calculo/definicao-funcao' },
             { label: 'Funções Importantes', link: '/calculo/funcoes-importantes' },
+            { label: 'Ferramentas Algébricas', link: '/calculo/ferramentas-algebricas' },
           ],
         },
         {
